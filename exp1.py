@@ -174,7 +174,7 @@ if False:
     plt.show()
 
 # visualize the linear nature of SPN
-from models.EinsumNetwork import Graph, EinsumNetwork
+# from models.EinsumNetwork import Graph, EinsumNetwork
 exp2_data.update({'SPN': {}})
 ts = []
 for N in range(N_start, N_end):
